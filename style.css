@@ -107,6 +107,7 @@ nav ul li:hover {
                 transition: all 0.7s ease-in-out;
                 display: flex;
                 gap: 1em;
+                padding: 0.2em 0.1em;
                 flex-flow: column-reverse;
                 align-items: center;
                 text-align: center;

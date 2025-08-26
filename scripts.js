@@ -3,7 +3,7 @@ const loadingEle = document.querySelector( '.custom-loading-ele' );
 
 /*================================================================================= */
 // Typing Proccess & Animations
-const speed = 250;
+const speed = 100;
 const myName = "عبد المنعم إبراهيم عبد المنعم عثمان";
 const myNameArr = myName.split( '' );
 let typingArr = []
