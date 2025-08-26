@@ -13,6 +13,10 @@
     scrollbar-width: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -204,6 +208,7 @@ form {
         color: var(--thirdColor);
         background-color: #e1eaecb2;
         border-radius: 1em;
+        line-height: 1.5em;
     }
 }
 
@@ -220,7 +225,7 @@ textarea {
     }
 
     &:hover {
-        background-color: var(--oddSectionBg);
+        background-color: lightgray;
     }
 }
 
@@ -286,7 +291,7 @@ footer {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(128, 128, 128, 0.582);
+    background-color: rgba(128, 128, 128, 0.75);
     z-index: 2;
 
     .dots {
@@ -311,8 +316,8 @@ footer {
         top: calc(50% - 6em);
         left: calc(50% - 6em);
         border-radius: 50%;
-        border-width: 2px;
-        border-style: double;
+        border-width: 5px;
+        border-style: solid;
         border-color: var(--thirdColor) darkturquoise;
         animation: spinning 1s ease-in-out infinite;
     }
